@@ -1,0 +1,44 @@
+body{
+  background-color: #230011;
+}
+#header{
+  color: #FCDEF0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+  background-color: #230011;
+  width:100%;
+  height:10%;
+  position:fixed;
+  margin-top: -5px;
+
+
+}
+p{
+  margin-left: 100px;
+  margin-top: 10px;
+  position relative;
+
+}
+#first{
+  height:400px;
+  width:100%;
+  background-color: rgba(100, 100, 100, 0.6);
+  position:static;
+  overflow:visible;
+
+}
+#second{
+  height:300px;
+  width:100%;
+    background-color: rgba(100, 100, 100, 0.2);
+  position:static;
+  overflow: scroll;
+}
+#third{
+  height:500px;
+  width:100%;
+    background-color: rgba(100, 100, 100, 0.4);
+  position:static;
+  overflow: scroll;
+
+}
