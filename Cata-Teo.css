@@ -1,33 +1,65 @@
 body{
-  background-color: #230011;
+  background-repeat:repeat;
+  background-image: url(wallpaper.jpg) !important;
+  background-blend-mode:soft-light;!important;
+  background-color: #230011 !important;
+  /*opacity:0.8;*/
+
 }
+
 #header{
+  display: none;
   color: #FCDEF0;
+  opacity:1.0;
   font-family: 'Dancing Script', cursive;
   font-size: 35px;
-  background-color: #230011;
+  background-color: rgb(23,00,11);
   width:100%;
-  height:10%;
-  position:fixed;
-  margin-top: -5px;
-
+  height:70px !important;
+  position:relative;
+  margin-top: 0px;
 
 }
-p{
-  margin-left: 100px;
+#name{
+  display:flex;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+/*p{
   margin-top: 10px;
   position relative;
+  text-align: center;
 
-}
-#first{
+}*/
+.hello{
+  /*display:none;*/
+  display: flex;
   height:400px;
-  width:100%;
   background-color: rgba(100, 100, 100, 0.6);
-  position:static;
+  position:relative;
   overflow:visible;
+  color: #FCDEF0;
+  font-family: 'Dancing Script', cursive;
+
+  font-size: 60px;
+  margin-top: 10% !important;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 
 }
-#second{
+#text{
+  /*display:flex;*/
+  text-align: center;
+  margin-left: 40%;
+  line-height: 100%;
+  margin-top: 20%;
+  position: relative;
+
+}
+
+/*#second{
   height:300px;
   width:100%;
     background-color: rgba(100, 100, 100, 0.2);
@@ -39,6 +71,6 @@ p{
   width:100%;
     background-color: rgba(100, 100, 100, 0.4);
   position:static;
-  overflow: scroll;
+  overflow: scroll;*/
 
 }
